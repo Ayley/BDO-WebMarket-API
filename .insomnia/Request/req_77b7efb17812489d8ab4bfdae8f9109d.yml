@@ -1,0 +1,59 @@
+_id: req_77b7efb17812489d8ab4bfdae8f9109d
+type: Request
+parentId: wrk_0fc387e9eadb4bcbb1ae7a25dcef0c9a
+modified: 1669903758428
+created: 1669890841326
+url: "{{ _.baseUrl }}GetAddEnchantLevelPrice"
+name: GetAddEnchantLevelPrice
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_365eb4aaf253498099ea9fce81404640
+      name: __RequestVerificationToken
+      value: "{{ _.formToken }}"
+      description: ""
+    - id: pair_c81241d3f4b54548843c4ce474d9f1c1
+      name: ""
+      value: ""
+      description: ""
+    - id: pair_0b0640b7a72046b09f6320af059d159c
+      name: mainKey
+      value: "10007"
+      description: ""
+    - id: pair_f2a42501a1454ddc8147fa496c5c9521
+      name: subKey
+      value: "1"
+      description: ""
+    - id: pair_0f3bc3466d95468c90a1640dd5f804be
+      name: ""
+      value: ""
+      description: ""
+    - id: pair_28beedef6224439383ea5dd4dc891d0e
+      name: keyType
+      value: "0"
+      description: ""
+parameters: []
+headers:
+  - id: pair_c6df7523279b44c9a04afd3edfe30da0
+    name: User-Agent
+    value: "{{ _.userAgent }}"
+    description: ""
+  - id: pair_916059afdc094f8d832dc03d1b7f5f8f
+    name: Content-Type
+    value: "{{ _.contentType }}"
+    description: ""
+  - id: pair_76172a1842354047b7995db2f7f686de
+    name: Cookie
+    value: "{{ _.headerToken }} lang=de-DE;"
+    description: ""
+authentication: {}
+metaSortKey: -1669890841326
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

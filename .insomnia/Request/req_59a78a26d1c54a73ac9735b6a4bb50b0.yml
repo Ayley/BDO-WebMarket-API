@@ -1,0 +1,46 @@
+_id: req_59a78a26d1c54a73ac9735b6a4bb50b0
+type: Request
+parentId: wrk_0fc387e9eadb4bcbb1ae7a25dcef0c9a
+modified: 1669902706600
+created: 1669890360809
+url: "{{ _.baseUrl }}GetWorldMarketSubList"
+name: GetWorldMarketSubList
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_861f7aa777ad432d880078624ebbc0e9
+      name: __RequestVerificationToken
+      value: "{{ _.formToken }}"
+      description: ""
+    - id: pair_b9d0dc71124d45eaa7d16ed9112098f1
+      name: ""
+      value: ""
+      description: ""
+    - id: pair_01951798bea4440da51b71f97d2dd816
+      name: mainKey
+      value: "10007"
+      description: ""
+parameters: []
+headers:
+  - id: pair_56f43fe367464760897d9e642b668c9a
+    name: User-Agent
+    value: "{{ _.userAgent }}"
+    description: ""
+  - name: Content-Type
+    value: "{{ _.contentType }}"
+    id: pair_99d5301b9db8489688aeadeb8daf564a
+  - id: pair_4fdef0d6b77240a79df25d5a56f168e9
+    name: Cookie
+    value: "{{ _.headerToken }} lang=de-DE;"
+    description: ""
+authentication: {}
+metaSortKey: -1669890360809
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

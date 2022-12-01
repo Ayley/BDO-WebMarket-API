@@ -1,0 +1,51 @@
+_id: req_652b9141358848e48b59c3093b07ccb7
+type: Request
+parentId: wrk_0fc387e9eadb4bcbb1ae7a25dcef0c9a
+modified: 1669902708114
+created: 1669889879783
+url: "{{ _.baseUrl }}GetWorldMarketList"
+name: GetWorldMarketList
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_655581cb4af24728a8dfe85c6ed7be26
+      name: __RequestVerificationToken
+      value: "{{ _.formToken }}"
+      description: ""
+    - id: pair_ae2561e39cc54001bb8797c205888546
+      name: ""
+      value: ""
+      description: ""
+    - id: pair_bb821bc1a1e246e59853902ef0a67c7f
+      name: mainCategory
+      value: "1"
+      description: ""
+    - id: pair_65b2af0201ce4a34bfc54e561b80ce3d
+      name: subCategory
+      value: "1"
+      description: ""
+parameters: []
+headers:
+  - id: pair_536678bb2ddc4172aa88c525a3595139
+    name: User-Agent
+    value: "{{ _.userAgent }}"
+    description: ""
+  - id: pair_e229f3293fe24848be53b78df1e3c612
+    name: Content-Type
+    value: "{{ _.contentType }}"
+    description: ""
+  - id: pair_8e81f2bed0c841a7ad5e26a59ee2e15e
+    name: Cookie
+    value: "{{ _.headerToken }} lang=de-DE;"
+    description: ""
+authentication: {}
+metaSortKey: -1000000000
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

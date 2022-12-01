@@ -1,0 +1,47 @@
+_id: req_0541ee7df0cc4829a18bb4b31c92652d
+type: Request
+parentId: wrk_0fc387e9eadb4bcbb1ae7a25dcef0c9a
+modified: 1669903690205
+created: 1669891109868
+url: "{{ _.baseUrl }}GetWorldMarketSearchList"
+name: GetWorldMarketSearchList
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_826af63f52d849a1bdb7f4bd93b31f89
+      name: __RequestVerificationToken
+      value: "{{ _.formToken }}"
+      description: ""
+    - id: pair_791adb76449a4fff91c252d6bcb5d70f
+      name: ""
+      value: ""
+      description: ""
+    - id: pair_d6fd6308ad51455aa61acc29dda2a7ef
+      name: searchText
+      value: Seles
+      description: ""
+parameters: []
+headers:
+  - id: pair_6a6a680609d443ffb236a93349c0f8be
+    name: User-Agent
+    value: "{{ _.userAgent }}"
+    description: ""
+  - id: pair_65e4af76a2d54afdb9b793cb2dc7b932
+    name: Content-Type
+    value: "{{ _.contentType }}"
+    description: ""
+  - id: pair_bd88e9c328bb4393b2cf91f8ce79fd15
+    name: Cookie
+    value: "{{ _.headerToken }} lang=de-DE"
+    description: ""
+authentication: {}
+metaSortKey: -1669891109868
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

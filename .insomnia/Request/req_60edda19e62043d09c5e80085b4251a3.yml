@@ -1,0 +1,34 @@
+_id: req_60edda19e62043d09c5e80085b4251a3
+type: Request
+parentId: wrk_0fc387e9eadb4bcbb1ae7a25dcef0c9a
+modified: 1669902732394
+created: 1669890028544
+url: "{{ _.baseUrl }}GetWorldMarketWaitList"
+name: GetWorldMarketWaitList
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - id: pair_76b574f6b81949668cba5e1659c5aa1d
+    name: User-Agent
+    value: "{{ _.userAgent }}"
+    description: ""
+  - id: pair_1cc6daa4b3b14d5d8922c870034beab3
+    name: Content-Type
+    value: "{{ _.contentType }}"
+    description: ""
+  - id: pair_7eecb9bd6b2e410cad13d941b7490bfa
+    name: Cookie
+    value: lang=de-DE
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1000000000
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

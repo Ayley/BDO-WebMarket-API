@@ -1,0 +1,34 @@
+_id: req_431739546160484d866eba8aa1fe5085
+type: Request
+parentId: wrk_0fc387e9eadb4bcbb1ae7a25dcef0c9a
+modified: 1669902730478
+created: 1669889848471
+url: "{{ _.baseUrl }}GetWorldMarketHotList"
+name: GetWorldMarketHotList
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - id: pair_8124eca64c0c4018a2e7efb0bb928153
+    name: User-Agent
+    value: "{{ _.userAgent }}"
+    description: ""
+  - id: pair_220455b3f40a492cbab238944823131f
+    name: Content-Type
+    value: "{{ _.contentType }}"
+    description: ""
+  - id: pair_3765c3e149de41f48c05ec5cd13c2762
+    name: Cookie
+    value: lang=de-DE
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1000000000
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: false
+settingFollowRedirects: global

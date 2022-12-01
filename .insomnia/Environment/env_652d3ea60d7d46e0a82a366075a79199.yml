@@ -1,0 +1,14 @@
+_id: env_652d3ea60d7d46e0a82a366075a79199
+type: Environment
+parentId: env_5745e73a19a632c6b1e2ddd14e58a1afa256fe7f
+modified: 1669889952751
+created: 1669889947406
+name: NA
+data:
+  baseUrl: https://na-trade.naeu.playblackdesert.com/Home/
+dataPropertyOrder:
+  "&":
+    - baseUrl
+color: null
+isPrivate: false
+metaSortKey: 1669889947406

@@ -1,0 +1,75 @@
+_id: req_4482971390ff45c790ffeb66863a3226
+type: Request
+parentId: wrk_0fc387e9eadb4bcbb1ae7a25dcef0c9a
+modified: 1669902705000
+created: 1669890553792
+url: "{{ _.baseUrl }}GetItemSellBuyInfo"
+name: GetItemSellBuyInfo
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_5dd3e929901e422e9d1f66bb4d6cc803
+      name: __RequestVerificationToken
+      value: "{{ _.formToken }}"
+      description: ""
+    - id: pair_92d681719ce141c4a7990a6622bc4caf
+      name: ""
+      value: ""
+      description: ""
+    - id: pair_319f2b80e25a43d188ef82cdb275a0cb
+      name: mainKey
+      value: "10007"
+      description: ""
+    - id: pair_8044164bb3a04f4cb4468dfc9aafa67a
+      name: subKey
+      value: "0"
+      description: ""
+    - id: pair_3d3f95482ae548e08906851b72b1fd0d
+      name: ""
+      value: ""
+      description: ""
+    - id: pair_7cae8b896a3b4243a411ce029fd81b9b
+      name: mainCategory
+      value: "5"
+      description: ""
+    - id: pair_dc82b71f960a4264962557a9d1b0c56d
+      name: subCategory
+      value: "2"
+      description: ""
+    - id: pair_437d247a5e3c415ca8170f16c432057f
+      name: ""
+      value: ""
+      description: ""
+    - id: pair_9227b59d57a04fee9b2867d53586b35c
+      name: keyType
+      value: "0"
+      description: ""
+    - id: pair_4e77cde33b1945f38da51772d3a22aff
+      name: isUp
+      value: "true"
+      description: ""
+parameters: []
+headers:
+  - id: pair_21ab7719adce4df7b944d484c7eef69f
+    name: User-Agent
+    value: "{{ _.userAgent }}"
+    description: ""
+  - id: pair_7ed8642e6a8246a999f43b1ed57e7c71
+    name: Content-Type
+    value: "{{ _.contentType }}"
+    description: ""
+  - id: pair_c83f5a0e298c4f219b36fae1db2ef8e4
+    name: Cookie
+    value: "{{ _.headerToken }} lang=de-DE;"
+    description: ""
+authentication: {}
+metaSortKey: -1669890553792
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

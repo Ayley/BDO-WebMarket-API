@@ -1,0 +1,21 @@
+_id: env_5745e73a19a632c6b1e2ddd14e58a1afa256fe7f
+type: Environment
+parentId: wrk_0fc387e9eadb4bcbb1ae7a25dcef0c9a
+modified: 1669890512949
+created: 1669889782666
+name: Base Environment
+data:
+  userAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+    like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42
+  contentType: application/x-www-form-urlencoded
+  headerToken: __RequestVerificationToken=JY00JZ1xlYU9FIj1ZVZtWHCDNJddWbCEh_ZqLUwjgts6IZ3395-yR2jHtg4iHNe0cwHfiwEr_7mc-ZI1tETz9xt_5qDPmGi_eMZadW3f6Cg1;
+  formToken: hJsQARTIMDT7h0ZlXqDLQgSeD3j4Tb92wkDx9dDI8rkvBCtx_gBTErHpENECdrVo8BDEA_uwHUiZ74ZaRBGnWVHVYEsQsU3H4TUMF1ioDFM1
+dataPropertyOrder:
+  "&":
+    - userAgent
+    - contentType
+    - headerToken
+    - formToken
+color: null
+isPrivate: false
+metaSortKey: 1669889782666

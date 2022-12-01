@@ -1,0 +1,52 @@
+_id: req_3d291b39c6604104a884f0dfe2eb591c
+type: Request
+parentId: wrk_0fc387e9eadb4bcbb1ae7a25dcef0c9a
+modified: 1669903679553
+created: 1669891336935
+url: "{{ _.baseUrl }}GetWorldMarketSubOne"
+name: GetWorldMarketSubOne
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_2bef6ad56ddc4ab890bb287808c5d1bf
+      name: __RequestVerificationToken
+      value: "{{ _.formToken }}"
+      description: ""
+    - id: pair_0d76787a2702412f8a47257490a9cdf7
+      name: ""
+      value: ""
+      description: ""
+    - id: pair_5d16dcba4917450cbea10a6dfd181ea1
+      name: sellMainKey
+      value: "10007"
+      description: ""
+    - id: pair_76b6000dab5b4cc3ac455aec0fd73012
+      name: sellSubKey
+      value: "8"
+      description: ""
+      disabled: false
+parameters: []
+headers:
+  - id: pair_942770a345bb4022bb4f4b85295d4323
+    name: User-Agent
+    value: "{{ _.userAgent }}"
+    description: ""
+  - id: pair_a2b1a89edcd84f0590f56ffe8cd893bb
+    name: Content-Type
+    value: "{{ _.contentType }}"
+    description: ""
+  - id: pair_8bd48af7e0e84b75b376ff39188e7dbf
+    name: Cookie
+    value: "{{ _.headerToken }} lang=de-DE;"
+    description: ""
+authentication: {}
+metaSortKey: -1669891336935
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

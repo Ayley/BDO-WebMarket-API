@@ -1,0 +1,14 @@
+_id: env_9ecc64ad481f45ab9b164a7afe25938f
+type: Environment
+parentId: env_5745e73a19a632c6b1e2ddd14e58a1afa256fe7f
+modified: 1669890506130
+created: 1669889929922
+name: EU
+data:
+  baseUrl: https://eu-trade.naeu.playblackdesert.com/Home/
+dataPropertyOrder:
+  "&":
+    - baseUrl
+color: null
+isPrivate: false
+metaSortKey: 1669889929922
